@@ -1,7 +1,6 @@
 module com.example.identification {
     requires javafx.controls;
     requires javafx.fxml;
-    requires jbcrypt;
     requires java.desktop;
 
 
