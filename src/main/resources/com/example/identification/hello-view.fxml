@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" prefHeight="462.0" prefWidth="477.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.example.identification.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <Label prefHeight="51.0" prefWidth="255.0" text="          Choose an Option" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+     <Button fx:id="signUp" onAction="#Signup" prefHeight="47.0" prefWidth="101.0" text="Sign Up" />
+      <Button fx:id="logIn" onAction="#LogIn" prefHeight="45.0" prefWidth="99.0" text="Log In" />
+   </children>
+</VBox>
